@@ -1,0 +1,54 @@
+<! DOCTYPE html>
+<html lang="pt-br" >
+< cabeça>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta nome="viewport" content="largura=largura do dispositivo, escala inicial=1,0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+ <stituído>Ex. gorjetas</título>
+</cabeça>
+<>
+  <div class="container">
+ <>
+ <>
+            <h1 class="title">Calculadora de Gorjetas</h1>
+        </div>
+ <>
+ <forme class="tipsForm" id="tipsForm">
+ <label para="bill">
+ <p>quanto ficou a conta</p>
+ <p>R$ <input type="number" id="bill" placeholder="100" class="formInput" necessário></p>
+ </rótulo>
+ <label para="serviço">
+                    <p>Como foi seu Serviço?</p>
+ </rótulo>
+                    <p>
+ <selé-se nome="service" id="service" class="formSelect" necessário>
+ <opção desativada>-- Escolha uma Opção --</opção>
+ < valor deopção="0,3">30% - Incrível</opção>
+ < valor deopção="0,2">20% - Bom</opção>
+ < valor deopção="0,15">15% - Aceitável</opção>
+ <o valor="0,10">10% - Ruim</opção>
+ <o valor="0,05">05% - Péssimo</opção>
+                        </select>
+                    </p>
+ <label para="pessoas", >
+                    <p>Quantas pessoas vão dividir a conta?</p>
+ </rótulo>
+ <p><input type="number" placeholder="2" id="people" class="formInput" necessário> pessoas</p>
+                <button class="formSubmit" type="submit">Calcular</button>
+ </formulário>
+        </div>
+ <div id="totalTip",> 
+            Gorjeta Total: 
+            R$ <span id="tip">00,00</span>
+ <p id="cada >cada</p>
+        </div>
+    </div>
+ <script tipo="text/javascript" src="índice.js"></script>
+          
+</corpo>
+</html>
